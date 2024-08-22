@@ -3,8 +3,6 @@
     margin: 0;
 }
 body{
-    display: flex;
-    flex-direction: column;
     background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), url(./images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -59,8 +57,28 @@ h1 em{
     border-radius: 5px;
 }
 .offer{
+    margin-top: -90px;
+    margin-left: -100px;
+}
+.offer img{
+    width: 400;
+}
+.home-image{
+    width: 400px;
+}
+.home-image{
+    position: relative;
+    animation: move 2s both;
 
 }
+@keyframes move{
+    from{right:0px;}
+    to{right:100px;}
+
+
+}
+
+
 @media(max-width:1000px){
     #logo img {
         width: 70px;
@@ -74,6 +92,35 @@ h1 em{
         padding: 10px 10px;
 
     }
+    .heading{
+        padding: 150px 50px;
+    }
+    .heading h1{
+        font-size: 35px;    
+    }
+    h1 em{
+        font-size: 50px;
+
+    }
+    .heading button{
+        padding: 8px;
+        margin-top: 8px;
+    }
+    .offer{
+        margin-top: -70px;
+        margin-left: -70px;    
+    }
+    .offer img{
+        width: 300px;
+    }
+    .home-image{
+        width: 300px;
+    }
+    @keyframes move{
+        from{right: 0px}
+        to {right: 50px}
+    }
+
 }
 @media(max-width:780px){
     #logo img {
@@ -86,6 +133,41 @@ h1 em{
         padding: 5px;
         
     }
+    .heading{
+        padding: 150px 20px;
+    }
+    .heading h1{
+        font-size: 25px;    
+    }
+    h1 em{
+        font-size: 40px;
+
+    }
+    .heading img{
+        width: 15px;
+        padding: 5px;
+    }
+    .heading p{
+        font-size: small;
+    }
+    .heading button{
+        padding: 5px;
+    }
+    .offer{
+        margin-top: -70px;
+        margin-left: -70px;    
+    }
+    .offer img{
+        width: 300px;
+    }
+    .home-image img{
+        width: 300px;
+    }
+    @keyframes move{
+        from{right: 0px}
+        to {right: 5%}
+    }
+
 }
 @media(max-width:420px){
     #logo img {
@@ -101,6 +183,41 @@ h1 em{
     .navbar a {
         font-size: 1.6vh;
         padding: 5px 5px;
+        
+    }
+    .heading{
+        padding: 60px 20px;
+    }
+    .heading h1{
+        font-size: 3vh;    
+    }
+    h1 em{
+        font-size: 4vh;
+
+    }
+    .heading img{
+        width: 10px;
+        padding: 2px;
+        margin: 8px 0px;
+        margin-bottom: 0%;
+    }
+    .heading p{
+        font-size: 1.3vh;
+    }
+    .heading button{
+        padding: 2px;
+        margin-left: 5px;
+        font-size: 1.3vh;
+    }
+    .offer{
+        margin-top: -40px;
+    }
+    .offer img{
+        width: 140px;
+    }
+    @keyframes move {
+        from{right: 0px}
+        to{right: 5%}
         
     }
 }
