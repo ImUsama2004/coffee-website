@@ -133,6 +133,38 @@ h1 em{
 
 }
 
+.cold-cof-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 90x;
+}
+.cold-cof-container .cof-cup2{
+    width: 220px;
+    height: 260px;
+    border: 5px solid white;
+    text-align: center;
+    background-color: rgbg(185,117,83,0.589);
+    transition: transform 0.4s ease-in 0.09s;
+}
+.cold-cof-container :hover{
+    transform: translateY(-10px);
+}
+.cof-cup2 img{
+    width: 100px;
+    height: 150px;
+    padding: 30px 0px;
+}
+.cold-cof-container .txt-bdy{
+    background-color: white;
+    padding: 12px;
+}
+.cof-cup2 .txt-bdy h4{
+    font-size: 3vh;
+}
+
+
+
 
 @media(max-width:1000px){
     #logo img {
@@ -186,6 +218,13 @@ h1 em{
         padding: 10px 20px;
         font-size: 2.6vh;
         font-weight: 450px;
+    }
+    .cof-cup2{
+        width: 180px;
+        height: 260px;
+    }
+    .cof-cup2 h4{
+        font-size: 2.2vh;
     }
 
 }
@@ -262,6 +301,24 @@ h1 em{
         padding: 0px 20px;
         font-size: 2vh;
         font-weight: 400px;
+    }
+    .cold-cof-container{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        gap: 30px;
+    }
+    .cof-cup2{
+        width: 220px;
+        height: 255px;
+    }
+    .cold-cof-container img{
+        padding: 30px 40px;
+        width: 100px;
+        height: 150px;
+
     }
 
 }
@@ -358,6 +415,23 @@ h1 em{
         text-align: justify;
         padding-top: 20px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    .cold-cof-container{
+        display: grid;
+        grid-template-columns: 65%;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px;
+        margin-top: -10px;
+    }
+    .cof-cup2{
+        width: 220px;
+        height: 250px;
+    }
+    .cof-cup2 img{
+        width: 100px;
+        height: 250px;
+        padding: 30px 40px;
     }
 
 }
