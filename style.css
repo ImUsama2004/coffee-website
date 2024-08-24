@@ -369,16 +369,16 @@ h1 em{
         grid-template-columns: 30% 30%;
     }
     .beans-container div{
-        width: 220px;
-        height: 220px;
+        width: 230px;
+        height: 250px;
     }
     .beans-container img{
         position: relative;
-        top: -150px;
+        margin-top: 15px;
     }
     .beans-container p{
         margin-top: -180px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
@@ -513,7 +513,7 @@ h1 em{
        
     }
     .beans-container p{
-        font-size: 20px;
+        font-size: 23px;
         margin-top: -190px;
     }
 
